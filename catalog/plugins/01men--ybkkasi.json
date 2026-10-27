@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "01men/ybkkasi",
+  "name": "ybkkasi",
+  "repository": "https://github.com/01men/ybkkasi",
+  "category": "dev",
+  "description": {
+    "en": "Self-hosted ledger for AI assets: MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage are registered as one asset class and move through a lifecycle state machine (draft, verifying, online, gray, unhealthy, offline). Each MCP tool declares its own minimum permission point instead of inheriting the calling token's scope, deployment supports a gray percentage with a dry-run impact preview over the dependency graph, and usage is attributed on org x subject x resource so spend can be split by department and by originating agent rather than by API key. Append-only audit log; zh/en/ja UI; MIT. Repository install only — the package is marked private and is not published to npm.",
+    "zh": "自托管的 AI 资产台账：把 MCP 服务、技能、Agent、AI 应用、模型渠道、SaaS 连接器与 NAS 存储登记为同一类资产，并按生命周期状态机流转（草稿 / 校验中 / 在线 / 灰度 / 异常 / 下线）。每个 MCP 工具单独声明自己的最小权限点，而不是继承调用方 token 的 scope；部署支持灰度比例与基于依赖拓扑的干跑影响面预览；用量按 组织 x 主体 x 资源 归因，费用可按部门与来源 Agent 拆分而不是按 API Key。只追加审计日志，中/英/日界面，MIT。仅支持仓库安装——包标记为 private，未发布到 npm。"
+  },
+  "added": "2026-10-27"
+}
